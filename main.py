@@ -2,7 +2,8 @@ import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 
-url = "https://ekvv.uni-bielefeld.de/pers_publ/publ/EinrichtungDetail.jsp?orgId=10022"
+#Add the desired UNI website
+url = ""
 
 def visit_page(url):
     try:
